@@ -1,0 +1,98 @@
+header{
+    background-color: rgb(25, 110, 213);
+    padding: 1rem 0;
+    h1{
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+}
+nav ul li{
+    justify-content: space-between;
+    display: inline;
+    margin: 0 10px;
+}
+
+
+#speaker_cards,#conference_cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: rgb(181, 181, 168);
+    justify-content: flex-end;
+}
+#card{
+    border-radius: 6px;
+    padding: 1rem;
+    color: rgb(18, 128, 225);
+    flex: 1;
+    box-shadow: 0 2px 5px;
+    min-width: 25px;
+    text-align: center;
+    background-color: cornsilk;
+    
+
+}
+.Conf{
+    background: url("conference.jpg") no-repeat center center/cover;
+     height: 60vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#conf_cont{
+    color: crimson;
+    text-align: center;
+}
+nav ul{
+    text-align:center;
+    padding: 0;
+    justify-content: space-between;
+    color: bisque;
+}
+a{
+    color: rgb(216, 216, 81);
+}
+
+h2{
+    text-align: center;
+    color: rgb(1, 63, 87);
+}
+button{
+    color: black;
+    text-align: center;
+}
+
+#About{
+background-color: beige;
+justify-content: center;
+align-items: center;
+
+}
+
+img{
+    justify-content: center;
+    align-items: center;
+}
+#Conferences{
+    background-color: rgb(152, 187, 223);
+}
+#Speakers{
+background-color: beige;
+}
+#Startyourplanning{
+ background-color: rgb(152, 187, 223)
+}
+#NEWSLETTER{
+background-color: beige;
+}
+
+footer{
+background-color: rgb(8, 14, 101);
+}
+
+@media screen and (min-width: 780px) {
+.full-width-img {
+margin: auto;
+width: 90%;
+}
+}
